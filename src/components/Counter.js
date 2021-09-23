@@ -93,10 +93,6 @@ function Counter() {
                 }}>-</button>
                 <button>delete</button>
             </div>
-
-
-
-
             <button onClick={() => {
                 dispatch({ type: 'reset' })
                 setCount(0)
